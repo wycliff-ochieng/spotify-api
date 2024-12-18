@@ -1,2 +1,3 @@
-# project-power
-a power learn project
+# spotify api interaction
+## fetching data from spotify api
+
