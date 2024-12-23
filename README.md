@@ -13,3 +13,13 @@ To use the access token you must include the following header in your API calls:
 - **Header Parameter** : Authorization
 - **Value** : Valid access token following the format: Bearer < Access Token >
 
+## API calls
+The Spotify Web API is a restful API with different endpoints which return JSON metadata about music artists, albums, and tracks, directly from the Spotify Data Catalogue.
+
+## Base URL
+The base address of Web API is https://api.spotify.com.
+
+## Authorization
+All requests to Spotify Web API require authorization. Make sure you have read the authorization guide to understand the basics.
+
+To access private data through the Web API, such as user profiles and playlists, an application must get the user’s permission to access the data.
