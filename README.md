@@ -23,3 +23,9 @@ The base address of Web API is https://api.spotify.com.
 All requests to Spotify Web API require authorization. Make sure you have read the authorization guide to understand the basics.
 
 To access private data through the Web API, such as user profiles and playlists, an application must get the user’s permission to access the data.
+
+spotify implements the OAuth2.0 framework where: 
+ - **End user**
+ - **My App**
+ - **Server**
+![OAuth2.0](https://developer.spotify.com/images/documentation/web-api/auth_intro.png)
