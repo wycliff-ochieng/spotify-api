@@ -10,3 +10,6 @@ The access token is a string which contains the credentials and permissions that
 
 To use the access token you must include the following header in your API calls:
 
+- **Header Parameter** : Authorization
+- **Value** : Valid access token following the format: Bearer <Access Token>
+
