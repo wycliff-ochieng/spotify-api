@@ -30,3 +30,15 @@ spotify implements the OAuth2.0 framework where:
  - **Server**  which hosts the protected resources and provides authentication and authorization via OAuth 2.0.
    
 ![OAuth2.0](https://developer.spotify.com/images/documentation/web-api/auth_intro.png)
+
+he access to the protected resources is determined by one or several scopes. Scopes enable your application to access specific functionality (e.g. read a playlist, modify 
+
+your library or just streaming) on behalf of a user. The set of scopes you set during the authorization, determines the access permissions that the user is asked to grant.
+
+Client Credentials Flow
+
+The Client Credentials flow is used in server-to-server authentication. Since this flow does not include authorization, only endpoints that do not access user information 
+
+can be accessed.
+
+![client credentials flow](https://developer.spotify.com/images/documentation/web-api/auth-client-credentials.png)
