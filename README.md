@@ -25,7 +25,8 @@ All requests to Spotify Web API require authorization. Make sure you have read t
 To access private data through the Web API, such as user profiles and playlists, an application must get the user’s permission to access the data.
 
 spotify implements the OAuth2.0 framework where: 
- - **End user**
- - **My App**
- - **Server**
+ - **End user** corresponds to the Spotify user. The End User grants access to the protected resources (e.g. playlists, personal information, etc.)
+ - **My App** is the client that requests access to the protected resources (e.g. a mobile or web app).
+ - **Server**  which hosts the protected resources and provides authentication and authorization via OAuth 2.0.
+   
 ![OAuth2.0](https://developer.spotify.com/images/documentation/web-api/auth_intro.png)
